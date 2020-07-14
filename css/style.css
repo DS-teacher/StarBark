@@ -1,0 +1,273 @@
+body{
+    margin-left: 379px;
+}
+/* 左侧导航宽度 */
+.nav{
+    width:30%;
+    /*height:600px;*/
+    /* background-color:red; */
+    float:left;
+    position: fixed;
+    left:0px;
+    top:0px;
+}
+/* logo大小 */
+.logo{
+    width:36px;
+    height:36px;
+}
+/* 菜单 */
+.header-nav{
+    margin-top:20px;
+    margin-left:15px;
+}
+.header-nav ul{
+    display:inline-block;
+    margin-left:20px;
+}
+.header-nav ul li{
+    float:left;
+    font-size:18px;
+    font-weight:bolder;
+    height:40px;
+    line-height: 40px;
+}
+/* 图标 */
+.header-nav ul + img{
+    float:right;
+    margin-right:20px;
+    margin-top:10px;
+}
+.header-nav ul li a{
+    color:#000;
+    padding:5px 10px;
+}
+/* 左侧section */
+.login{
+    width:240px;
+    margin-left:75px;
+    margin-top:220px;
+}
+/* 文字样式 */
+.login .text{
+    font-family:"微软雅黑";
+    font-weight: bolder;
+    font-size:26px;
+    color:#000;
+    line-height:38px;
+}
+/* 链接位置 */
+.login .res{
+    margin-top:35px;
+}
+/* 链接样式 */
+.login .res a{
+    color:#00a862;
+    font-size:16px;
+}
+/* 图标样式 */
+.bg-icon{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:url(./../images/icon-account.svg) no-repeat;
+    vertical-align: middle;
+}
+/* 注册样式 */
+.resg{
+    margin-left:25px;
+    border:1px solid #00a862;
+    padding:8px 13px;
+    border-radius:20px;
+}
+/* 右侧内容宽度 */
+.content{
+    width:883.05px;
+    /*height:600px;*/
+    border-left: 1px solid #ccc;
+    /*background-color:#008c8c;*/
+    float:left;
+    overflow: hidden;
+}
+.lb-image{
+    width: 3775px;
+}
+.lb-image img{
+    width: 883.06px;
+    float: left;
+}
+.lb{
+    position: relative;
+}
+.lb::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.lb .arrow{
+    font-size: 96px;
+    color: aliceblue;
+    position: absolute;
+    right: 12px;
+    top: 160px;
+}
+.lb .arrow:hover{
+    color: #0084c0;
+}
+.lb .ad {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0px 6px;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    line-height: 130%;
+    opacity: 0.6;
+    border-radius: 3px;
+    z-index: 200;
+}
+.show{
+    background-color: #f7f7f7;
+    /*padding-top: 1000px;*/
+    padding:25px 0;
+}
+.show li{
+    float: left;
+    margin-left: 24px;
+}
+.show li img{
+    width:262.77px;
+    height:162.31px;
+}
+.show::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.club{
+    padding-bottom: 35px;
+}
+.club-left{
+    width: 340px;
+    display: inline-block;
+    margin-left: 82px;
+    margin-top: 40px;
+}
+.club-left .XX-club{
+    font-size: 20px;
+    color: #000;
+}
+.club-left p{
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.more{
+    color:#c2a661;
+}
+.club-left .resg-color{
+    color: #00a862;
+    padding:8px 18px;
+    font-size:14px;
+}
+.club .club-right{
+    margin-top:84px;
+    margin-left:156px;
+}
+
+/* 星巴克精选 */
+.card{
+    background-color:#f7f7f7;
+    padding-top:42px;
+    padding-bottom:35px;
+}
+.card .title{
+    font-size:20px;
+    color:#000;
+    text-align:center;
+}
+.card .text-content{
+    text-align:center;
+    font-size:16px;
+    margin-top:24px;
+}
+.card .card-list{
+    margin-top:72px;
+    margin-left:72px;
+}
+.card .card-list li{
+    display:inline-block;
+    border:1px solid #ddd;
+    border-top:none;
+    width:162px;
+    text-align: center;
+    /* position: relative; */
+    background-color:#fff;
+    border-radius:3px;
+    padding-bottom:30px;
+    margin-left:16px;
+}
+.card .card-list li:hover{
+    border-top:1px solid #ddd;
+}
+.card .card-list li img{
+    width:101.37px;
+    height:72px;
+    /* position: absolute; */
+    margin-top:-25px;
+}
+.card .card-list .text-title{
+    margin-top: 18px;
+    font-weight: bolder;
+    font-size:16px;
+    color:#000;
+}
+.card .card-list .textContent{
+    font-size:14px;
+    line-height:24px;
+    margin-top:18px;
+    margin-bottom:24px;
+}
+.card2{
+    background-color:white;
+}
+.card2 .show{
+    margin: 18px;
+    background-color: white;
+    margin-left: 80px;
+}
+.card2 li{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.card2 .code2{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    font-weight: bolder;
+    font-size:16px;
+    color:#000;
+}
+.card2 .ad1{
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+.card2 .code1{
+    position: absolute;
+    top: 8%;
+    color: white;
+    background-color: #c2a661;
+    padding:6px 8px;
+}
+.card2 .ad2 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 9%;
+}
+.card2 .bot{
+    margin-bottom: 196px;
+}
